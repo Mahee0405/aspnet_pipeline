@@ -18,7 +18,7 @@ namespace Shopping.Client.Controllers
         {
             _logger = logger;
         }
-
+        //start building
         public IActionResult Index()
         {
             return View(ProductContext.Products);
